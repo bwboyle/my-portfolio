@@ -4,15 +4,15 @@ export default function About() {
     return (
         <section id="about">
             <div className="container px-5 py-10 mx-auto flex items-center">
-                <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <div className="lg:flex-grow md:w-auto lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-                        Hi, I'm Brendan.
+                        Welcome!.
                         {//<br className="hdden lg:inline-block"/>I love to build amazing apps
                         }
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        I'm a sophomore studying computer science at the University of Wisconsin - Madison. 
-                        Below, you will be able to see some of my top skills related to programming.
+                        I'm Brendan, and I'm a sophomore at the University of Wisconsin - Madison. 
+                        This is a place to showcase my skills related to programming, software development, and computer science as a whole.
                     </p> 
                     <p className="flex justify-center">
                         <a 
@@ -20,17 +20,15 @@ export default function About() {
                             className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                             Contact Me
                         </a>
-                    </p>
-                    {/*
-                    <a
+                        <a
                         href="#projects"
-                        className="mt-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded text-lg">
-                        Contact Me    
+                        className="ml-4 inline-flex text-white bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded text-lg">
+                        Projects   
                     </a>
-                    */}
+                    </p>
                 </div>
             </div>
-            <div className="lg:ml-20 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <div className="lg:ml-20 lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:ml-12">
                 <img
                     className="object-cover object-center rounded"
                     alt="hero"
