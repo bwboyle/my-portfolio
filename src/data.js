@@ -7,6 +7,14 @@ export const projects = [
     image: "./expense-tracker.gif",
     link: "https://github.com/bwboyle/expense-tracker",
   },
+  {
+    title: "Spotify Player",
+    subtitle: "React + REST API",
+    description:
+      "Music web app built with the Spotify Web API and ReactJS",
+    image: "./spotify-player.png",
+    link: "https://github.com/bwboyle/spotify-player",
+  },
   // {
   //   title: "React Tracks",
   //   subtitle: "React and Python",

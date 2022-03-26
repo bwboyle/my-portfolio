@@ -15,7 +15,7 @@ export default function Projects() {
                         Here are some of the projects I have worked on. 
                     </p>
                 </div>
-                <div className="flex flex-wrap -m-4">
+                <div className="flex flex-wrap lg:w-4/5 max-w-3xl sm:mx-auto sm:mb-1 -mx-2">
                     {projects.map((project) => (
                         <a
                             href={project.link}
@@ -25,7 +25,7 @@ export default function Projects() {
                             <div className="flex relative">
                                 <img
                                     alt="gallery"
-                                    className="absolute inset-0 w-full h-full object-cover object-center"
+                                    className="absolute inset-0 w-full h-full object-fill object-center"
                                     src={project.image}
                                 />
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
